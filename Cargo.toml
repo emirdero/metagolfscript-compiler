@@ -1,0 +1,12 @@
+[package]
+name = "metagolfscript-compiler"
+version = "0.1.0"
+authors = ["Emir <memir0@hotmail.no>"]
+edition = "2021"
+
+[dependencies]
+rutie = "0.8.2"
+
+[[bin]]
+name = "metagolfscript"
+path = "src/main.rs"
